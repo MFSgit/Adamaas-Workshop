@@ -85,7 +85,10 @@ int main(int argc, char **argv)
 
 	return 0;
 }
-
+void jas(void)
+{
+	cout<<"this is the reference test function-ariana";
+}
 void thresh_callback(int a, void *b)
 {
 	Mat threshold_output;
